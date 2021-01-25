@@ -1,4 +1,4 @@
-ASPNETCORE_ENVIRONMENT: uat
+env: release
 affinity: {}
 fullnameOverride: ""
 image:

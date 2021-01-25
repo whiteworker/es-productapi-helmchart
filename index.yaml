@@ -3,12 +3,12 @@ entries:
   es-productapi:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-01-25T15:08:41.3358557+08:00"
+    created: "2021-01-25T16:16:10.1715847+08:00"
     description: A Helm chart for Kubernetes
-    digest: b9208c7d919b7654293df29eb8c5343f83a3ba2ec975f91739b9f50caeff818f
+    digest: 6c4add3796ce4cf22cfa9a42106bce26457c78b67fef808bc69c867c452c7bed
     name: es-productapi
     type: application
     urls:
     - https://whiteworker.github.io/es-productapi-helmchart/es-productapi-0.1.0.tgz
     version: 0.1.0
-generated: "2021-01-25T15:08:41.3318563+08:00"
+generated: "2021-01-25T16:16:10.1695846+08:00"
