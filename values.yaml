@@ -1,0 +1,27 @@
+ASPNETCORE_ENVIRONMENT: uat
+affinity: {}
+fullnameOverride: ""
+image:
+  pullPolicy: IfNotPresent
+  repository: whiteworker/es-productapi
+  tag: latest
+ingress:
+  host: k8s.tencent.com
+  paths: []
+  tls: []
+  prefix: /ProductAPI/
+nameOverride: ""
+namespace: es
+nodeSelector: {}
+replicaCount: 1
+resources:
+  limits:
+    cpu: 100m
+    memory: 100Mi
+  requests:
+    cpu: 1m
+    memory: 50Mi
+service:
+  port: 80
+  type: ClusterIP
+tolerations: []
